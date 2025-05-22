@@ -1,0 +1,24 @@
+[project]
+name = "learning-path"
+version = "0.1.0"
+description = "Personal project for studying computer science and programming"
+authors = [
+    {name = "Samuel Rangel sam_falcao@hotmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "numpy (>=2.2.6,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+jupyterlab = "^4.4.2"
+
