@@ -1,0 +1,40 @@
+# Arquivos do PyCharm
+.idea/
+*.iml
+
+# Ambientes virtuais
+venv/
+.env/
+.venv/
+
+# Arquivos de notebooks temporários
+.ipynb_checkpoints/
+
+# Arquivos de dados
+*.csv
+*.xlsx
+*.xls
+*.tsv
+
+# Arquivos de saída comuns
+*.log
+*.tmp
+*.bak
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de build ou dist
+build/
+dist/
+*.egg-info/
+
+# Arquivos do Poetry
+poetry.lock
